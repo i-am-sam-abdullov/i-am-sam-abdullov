@@ -8,8 +8,6 @@ def modify_team_statistic(goals_scored, goals_conceded, line):
         line[4] += 1
     else:
         line[3] += 1
-
-
 def main():
     n = int(input())
 
